@@ -2,4 +2,40 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+}
+
+body{
+  background: #000;
+}
+
+h1, h4, p,a {
+  color: #ffff;
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.btn{
+  padding: 12px 32px;
+  font-style: 1rem;
+  text-transform: uppercase;
+  background: rgb(248, 217 , 15 );
+  color: #222;
+  border: 1px solid #ffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-liht{
+  background: transparent;
+  color: #ffff;
+}
+
+.btn:hover {
+  background: rgb(255, 255, 255, 0.5);
+  color: #ffff;
+  transition: 0.3s;
 }
